@@ -1238,7 +1238,7 @@ Section Title
     position: relative;
     background-color: #fafafa;
     padding: 240px 0 70px;
-    background-image: url(./img/save-date-bg.png);
+    background-image: url(/img/save-date-bg.png);
 }
 @media (max-width: 1199.98px) {
     .banner-section-two {
