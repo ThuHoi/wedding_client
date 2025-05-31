@@ -117,7 +117,7 @@ function ContactSection() {
                                         <img
                                             data-uuid="65ac636d57841"
                                             alt="Image"
-                                            src="https://api.vesey.vn/templates/wendola2/icon-circle-star.png"
+                                            src="./img/icon-circle-star.png"
                                             id="illdk6"
                                             style={{
                                                 boxSizing: "border-box",
@@ -270,6 +270,8 @@ function ContactSection() {
                                                         onChange={handleChange}
                                                         type="text"
                                                         id="iq7r9j"
+                                                        inputMode="numeric"
+                                                        pattern="[0-9]*"
                                                         className="vs-attendance-phone"
                                                     />
                                                 </div>
@@ -437,14 +439,10 @@ function ContactSection() {
                                             data-fancybox=""
                                             data-uuid="65ac636d57a28"
                                         >
-                                            <img src="./img/album/album_13.jpg" alt="img" />
-                                            {/* <img
-                                                src="./img/album/img_13.jpg"
-                                                data-editable="true"
-                                                style="aspect-ratio: 737/408; object-fit: cover"
-                                                alt="Image"
-                                                data-uuid="65ac636d57a31"
-                                            /> */}
+                                            <img
+                                                src="./img/album/album_13.jpg"
+                                                alt="img"
+                                            />
                                         </a>
                                     </figure>
                                 </div>
@@ -463,7 +461,7 @@ function ContactSection() {
                                         <img
                                             data-uuid="65ac636d57a4a"
                                             alt="Image"
-                                            src="https://api.vesey.vn/templates/wendola2/icon-cone.png"
+                                            src="./img/icon-cone.png"
                                             data-editable="true"
                                             id="iuhyld"
                                             style={{
