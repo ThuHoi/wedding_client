@@ -54,10 +54,10 @@ const EventSection = () => {
                                         className="image"
                                         style={{ maxHeight: "277px" }}
                                     >
-                                        <a href="./img/img_couple_2.jpg">
+                                        <a href="./img/album/album_1.jpg">
                                             <img
                                                 alt="Image"
-                                                src="./img/img_couple_2.jpg"
+                                                src="./img/album/album_1.jpg"
                                                 style={{
                                                     width: "100%",
                                                     height: "100%",
@@ -100,10 +100,10 @@ const EventSection = () => {
                             <div className="image-column">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <a href="./img/img_couple_2.jpg">
+                                        <a href="./img/album/album_13.jpg">
                                             <img
                                                 alt="Image"
-                                                src="./img/img_couple_2.jpg"
+                                                src="./img/album/album_13.jpg"
                                                 style={{
                                                     width: "100%",
                                                     height: "100%",
@@ -148,10 +148,10 @@ const EventSection = () => {
                                         className="image"
                                         style={{ maxHeight: "277px" }}
                                     >
-                                        <a href="./img/img_couple_2.jpg">
+                                        <a href="./img/album/album_4.jpg">
                                             <img
                                                 alt="Image"
-                                                src="./img/img_couple_2.jpg"
+                                                src="./img/album/album_4.jpg"
                                                 style={{
                                                     width: "100%",
                                                     height: "100%",

@@ -51,7 +51,7 @@ function ScheduleSection() {
                                     <img
                                         id="idn4l"
                                         alt="Image"
-                                        src="https://api.vesey.vn/templates/wendola2/services2-3.png"
+                                        src="./img/services2-3.png"
                                         style={{
                                             boxSizing: "border-box",
                                             objectFit: "cover",
@@ -127,7 +127,7 @@ function ScheduleSection() {
                                     <img
                                         id="iai0m"
                                         alt="Image"
-                                        src="https://api.vesey.vn/templates/wendola2/services2-1.png"
+                                        src="./img/services2-1.png"
                                         style={{
                                             boxSizing: "border-box",
                                             objectFit: "cover",
@@ -204,7 +204,7 @@ function ScheduleSection() {
                                     <img
                                         id="irf8v"
                                         alt="Image"
-                                        src="https://api.vesey.vn/templates/wendola2/services2-2.png"
+                                        src="./img/services2-2.png"
                                         style={{
                                             boxSizing: "border-box",
                                             objectFit: "cover",

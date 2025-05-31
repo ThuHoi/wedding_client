@@ -1,6 +1,6 @@
 import React from "react";
 
-function s() {
+function CoupleSection() {
     return (
         <section
             data-uuid="65ac636d57543"
@@ -48,7 +48,7 @@ function s() {
                                 <figure
                                     data-uuid="65ac636d5755f"
                                     id="ikxykg"
-                                    href="https://vs-photo.s3.ap-southeast-1.amazonaws.com/9ee2bcb1-3659-4781-8684-1e291062186a/6825fd117faf91747320081.JPG"
+                                    href="./img/album/album_10.jpg"
                                     className="image overlay-anim"
                                 >
                                     <img
@@ -159,7 +159,7 @@ function s() {
                                         data-editable="true"
                                         id="i4mq1b"
                                     >
-                                        Chú rể viết gì đi...
+                                        Anh IT hài hước vui tính 🤗
                                     </span>
                                 </div>
                                 <div
@@ -252,7 +252,7 @@ function s() {
                                         data-editable="true"
                                         id="i4mq1b"
                                     >
-                                        Cô dâu viết gì đi...
+                                        Cô điều dưỡng đáng yêu 🥰
                                     </span>
                                 </div>
                             </div>
@@ -264,4 +264,4 @@ function s() {
     );
 }
 
-export default s;
+export default CoupleSection;

@@ -1,6 +1,4 @@
-import axios from "axios"
-const API = axios.create({ baseURL: "http://localhost:8000" })
+import axios from "axios";
+const API = axios.create({ baseURL: import.meta.env.VITE_API_URL });
 
-
-export const CreatePost = (formdata) => API.post("/", formdata)
-
+export const CreatePost = (formdata) => API.post("/", formdata);

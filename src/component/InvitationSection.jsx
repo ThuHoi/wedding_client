@@ -20,7 +20,7 @@ function InvitationSection() {
                                 data-uuid="65ac636d574c1"
                                 id="ir2n7"
                                 data-editable="true"
-                                src="https://api.vesey.vn/templates/wendola1/save-the-date.png"
+                                src="./img/save-the-date.png"
                                 style={{
                                     width: "100%",
                                     height: "100%",
@@ -88,7 +88,7 @@ function InvitationSection() {
                                     width="250"
                                     data-editable="true"
                                     id="io6n2"
-                                    src="https://api.vesey.vn/templates/habibi2/flower.png"
+                                    src="./img/flower.png"
                                     style={{
                                         width: "250px",
                                         height: "100px",
@@ -190,7 +190,7 @@ function InvitationSection() {
                                     width="50"
                                     id="ionwh6"
                                     data-editable="true"
-                                    src="https://api.vesey.vn/templates/vs-template-3/d-heart.png"
+                                    src="./img/d-heart.png"
                                 />
                             </div>
                             <div

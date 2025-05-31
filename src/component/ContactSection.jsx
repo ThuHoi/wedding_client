@@ -423,23 +423,31 @@ function ContactSection() {
                                 className="inner-column"
                                 style={{ boxSizing: "border-box" }}
                             >
-                                {/* <div
-                                    data-uuid="65ac636d57a17"
-                                    id="i4w097"
+                                <div
                                     className="image-box"
-                                    style={{ boxSizing: "border-box" }}
+                                    data-uuid="65ac636d57a17"
                                 >
-                                    <div className="w-full max-w-xl mx-auto">
-                                        <video width="100%" controls>
-                                            <source
-                                                src="/videos/wedding.mp4"
-                                                type="video/mp4"
-                                            />
-                                            Trình duyệt của bạn không hỗ trợ thẻ
-                                            video.
-                                        </video>
-                                    </div>
-                                </div> */}
+                                    <figure
+                                        className="image overlay-anim"
+                                        data-uuid="65ac636d57a1f"
+                                    >
+                                        <a
+                                            href="./img/album/album_13.jpg"
+                                            className="lightbox-image"
+                                            data-fancybox=""
+                                            data-uuid="65ac636d57a28"
+                                        >
+                                            <img src="./img/album/album_13.jpg" alt="img" />
+                                            {/* <img
+                                                src="./img/album/img_13.jpg"
+                                                data-editable="true"
+                                                style="aspect-ratio: 737/408; object-fit: cover"
+                                                alt="Image"
+                                                data-uuid="65ac636d57a31"
+                                            /> */}
+                                        </a>
+                                    </figure>
+                                </div>
                                 <div
                                     data-uuid="65ac636d57a39"
                                     id="id8xer"

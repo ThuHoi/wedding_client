@@ -405,11 +405,11 @@ figure.image {
 }
 
 .bg-pattern-4 {
-    background-image: url(https://api.vesey.vn/templates/wendola2/pattern-4.png);
+    background-image: url(./img/pattern-4.png);
 }
 
 .bg-pattern-5 {
-    background-image: url(https://api.vesey.vn/templates/wendola2/pattern-5.png);
+    background-image: url(./img/pattern-5.png);
 }
 
 /*=======================
@@ -726,7 +726,7 @@ Scroll To Top style
 .icon-flowers-6 {
     width: 255px;
     height: 754px;
-    background-image: url(http://api.vesey.vn/templates/wendola2/flowers-6.png);
+    background-image: url(./img/flowers-6.png);
 }
 
 .icon-leave-4 {
@@ -738,7 +738,7 @@ Scroll To Top style
 .icon-leaves-5 {
     width: 226px;
     height: 254px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-leaves-5.png);
+    background-image: url(./img/icon-leaves-5.png);
 }
 
 .icon-leaves-6 {
@@ -750,43 +750,43 @@ Scroll To Top style
 .icon-leaves-7 {
     width: 382px;
     height: 711px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-leaves-7.png);
+    background-image: url(./img/icon-leaves-7.png);
 }
 
 .icon-flower-3 {
     width: 141px;
     height: 217px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flower-3.png);
+    background-image: url(./img/icon-flower-3.png);
 }
 
 .icon-flower-4 {
     width: 134px;
     height: 188px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flower-4.png);
+    background-image: url(./img/icon-flower-4.png);
 }
 
 .icon-flower-6 {
     width: 80px;
     height: 105px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flower-6.png);
+    background-image: url(./img/icon-flower-6.png);
 }
 
 .icon-flower-7 {
     width: 106px;
     height: 76px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flower-7.png);
+    background-image: url(./img/icon-flower-7.png);
 }
 
 .icon-flower-8 {
     width: 111px;
     height: 169px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flower-8.png);
+    background-image: url(./img/icon-flower-8.png);
 }
 
 .icon-flower-9 {
     width: 100px;
     height: 140px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flower-9.png);
+    background-image: url(./img/icon-flower-9.png);
 }
 
 .bounce-y {
@@ -1238,7 +1238,7 @@ Section Title
     position: relative;
     background-color: #fafafa;
     padding: 240px 0 70px;
-    background-image: url(https://api.vesey.vn/templates/vs-template-3/save-date-bg.png);
+    background-image: url(./img/save-date-bg.png);
 }
 @media (max-width: 1199.98px) {
     .banner-section-two {
@@ -1251,7 +1251,7 @@ Section Title
     left: 0;
     width: 238px;
     height: 500px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flowers-1.png);
+    background-image: url(./img/icon-flowers-1.png);
     background-repeat: no-repeat;
 }
 @media (max-width: 1199.98px) {
@@ -1265,7 +1265,7 @@ Section Title
     right: 0;
     width: 261px;
     height: 612px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flowers-2.png);
+    background-image: url(./img/icon-flowers-2.png);
     background-repeat: no-repeat;
 }
 @media (max-width: 1199.98px) {
@@ -1420,7 +1420,7 @@ Section Title
     left: -55px;
     width: 117px;
     height: 180px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flowers-3.png);
+    background-image: url(./img/icon-flowers-3.png);
     background-repeat: no-repeat;
 }
 .banner-section-two .image-column .inner-column .image:after {
@@ -1430,7 +1430,7 @@ Section Title
     right: -55px;
     width: 111px;
     height: 156px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/icon-flowers-4.png);
+    background-image: url(./img/icon-flowers-4.png);
     background-repeat: no-repeat;
 }
 .banner-section-two .image-column .inner-column .image img {
@@ -1740,7 +1740,7 @@ Section Title
     height: 260px;
     margin-top: -132px;
     margin-left: -132px;
-    background-image: url(https://api.vesey.vn/templates/wendola2/couple-frame-2.png);
+    background-image: url(./img/couple-frame-2.png);
     background-repeat: no-repeat;
     -webkit-animation: zoom-two 3s infinite linear;
     animation: zoom-two 3s infinite linear;
