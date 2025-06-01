@@ -260,6 +260,14 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-dancing mt-3"
                             >
+                                Rất hân hạnh được đón tiếp
+                            </h5>
+                            <h5
+                                id="in0cbl"
+                                data-uuid="65ac636d5753f"
+                                data-editable="true"
+                                className="font-dancing mt-1"
+                            >
                                 Sự hiện diện của Quý khách là niềm vinh hạnh của gia
                                 đình chúng tôi!
                             </h5>
