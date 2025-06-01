@@ -252,7 +252,7 @@ function CoupleSection() {
                                         data-editable="true"
                                         id="i4mq1b"
                                     >
-                                        Cô điều dưỡng đáng yêu 🥰
+                                        Cô điều dưỡng hiền lành đáng yêu 🥰
                                     </span>
                                 </div>
                             </div>
