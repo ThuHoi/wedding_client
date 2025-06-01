@@ -68,7 +68,7 @@ function BannerSection() {
                             >
                                 <FaMapMarkerAlt className="icon" />
                                 <span>
-                                    Trung tâm tiệc cưới Hồng Minh, Hải Phòng,
+                                    Trung tâm tiệc cưới Hồng Minh, Hồng Bàng, Hải Phòng,
                                     Việt Nam
                                 </span>
                             </div>
