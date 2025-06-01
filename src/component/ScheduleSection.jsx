@@ -71,7 +71,7 @@ function ScheduleSection() {
                                     className="sub-title"
                                     style={{ boxSizing: "border-box" }}
                                 >
-                                    14:00
+                                    17:00
                                 </span>
                                 <h4
                                     id="i6sp8"
@@ -147,7 +147,7 @@ function ScheduleSection() {
                                     className="sub-title"
                                     style={{ boxSizing: "border-box" }}
                                 >
-                                    16:00
+                                    17:00
                                 </span>
                                 <h4
                                     id="iyilp"

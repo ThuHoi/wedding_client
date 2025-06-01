@@ -1317,7 +1317,7 @@ Section Title
     font-weight: 400;
     line-height: 1.4em;
     font-size: 60px;
-    margin-bottom: 25px;
+    margin: 25px 0 25px 0;
 }
 @media (max-width: 1199.98px) {
     .banner-section-two .content-column .inner-column .name,

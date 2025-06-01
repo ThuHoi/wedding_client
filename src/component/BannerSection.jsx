@@ -31,7 +31,7 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                CHÚNG MÌNH CƯỚI
+                                Lễ Thành Hôn
                             </span>
                             <h2
                                 className="name wow fadeInUp animated"
@@ -68,7 +68,7 @@ function BannerSection() {
                             >
                                 <FaMapMarkerAlt className="icon" />
                                 <span>
-                                    Nhà hàng tiệc cưới Hồng Minh, Hải Phòng,
+                                    Trung tâm tiệc cưới Hồng Minh, Hải Phòng,
                                     Việt Nam
                                 </span>
                             </div>
