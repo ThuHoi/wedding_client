@@ -622,6 +622,20 @@ Scroll To Top style
     color: var(--theme-color-light);
 }
 
+.btn-submit {
+    position: relative;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 17px 45px 13px;
+    font-weight: 700;
+    overflow: hidden;
+    color: var(--theme-color-light);
+    background: var(--theme-color1);
+    font-family: var(--title-font);
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
 /*Btn Style two*/
 .btn-style-two {
     position: relative;

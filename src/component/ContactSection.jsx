@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
 import { CreatePost } from "../api";
-// import confetti from "canvas-confetti";
+import confetti from "canvas-confetti";
 
 function ContactSection() {
     const [formData, setFormData] = useState({
@@ -25,14 +25,19 @@ function ContactSection() {
         e.preventDefault();
         try {
             await CreatePost(formData);
-            toast.success("Gửi lời chúc thành công!");
             setFormData({
                 name: "",
                 phoneNumber: "",
                 content: "",
-                isJoin: "",
-                isGuest: "",
+                isJoin: "yes",
+                isGuest: "bride",
             });
+            confetti({
+                particleCount: 150,
+                spread: 100,
+                origin: { y: 0.6 },
+            });
+            toast.success("Gửi lời chúc thành công!");
         } catch (error) {
             console.error(error);
             toast.error("Đã xảy ra lỗi khi gửi!");
@@ -391,7 +396,8 @@ function ContactSection() {
                                                     name="submit-form"
                                                     type="submit"
                                                     id="ikc17i"
-                                                    className="theme-btn btn-style-one"
+                                                    className="theme-btn btn-submit"
+                                                    // disabled
                                                 >
                                                     <span
                                                         data-uuid="65ac636d579fd"

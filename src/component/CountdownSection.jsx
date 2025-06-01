@@ -1,6 +1,6 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+// import "aos/dist/aos.css";
 
 function CountdownSection() {
     const targetDate = new Date("2025-06-15T17:00:00");
@@ -106,10 +106,10 @@ function CountdownSection() {
                         data-uuid="65ac636d57608"
                         id="irhw1s"
                         className="time-counter"
+                        data-aos="fade-up"
                     >
                         <div
                             data-uuid="65ac636d5760d"
-                            data-countdown="4/22/2024"
                             id="ir3g0v"
                             className="time-countdown"
                         >
