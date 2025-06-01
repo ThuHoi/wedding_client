@@ -145,19 +145,19 @@ function InvitationSection() {
                                     id="ivy7a8"
                                     data-uuid="65ac636d574f9"
                                     data-editable="true"
-                                    className="font-questrial vs-attendance-name-text"
+                                    className="font-questrial mt-1 vs-attendance-name-text"
                                     style={{ fontWeight: 600, display: "inline" }}
                                 >
-                                    Bạn cùng gia đình
+                                    Tới dự bữa cơm thân mật
                                 </h4>
                             </div>
                             <h5
                                 id="ixzonx"
                                 data-uuid="65ac636d57500"
                                 data-editable="true"
-                                className="font-questrial mt-1 fst-italic"
+                                className="font-questrial mt-1 vs-attendance-name-text"
                             >
-                                (Tới dự Lễ Thành Hôn của hai con chúng tôi)
+                                Mừng Lễ Thành Hôn của hai con chúng tôi
                             </h5>
                         </div>
                         <div
@@ -219,7 +219,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial"
                             >
-                                Tổ chức vào lúc 15 giờ 00
+                                Tổ chức vào lúc 17 giờ 00
                             </span>
                             <h4
                                 id="i0oaij"

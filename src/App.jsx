@@ -14,7 +14,7 @@ function App() {
         <div className="page-wrapper">
             <MusicPlayer/>
             <BannerSection/>
-            <ScheduleSection/>
+            {/* <ScheduleSection/> */}
             <InvitationSection/>
             <CoupleSection/>
             <CountdownSection/>
