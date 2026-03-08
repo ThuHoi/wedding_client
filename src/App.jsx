@@ -4,7 +4,7 @@ import ScheduleSection from "./component/ScheduleSection"
 import InvitationSection from "./component/InvitationSection"
 import CoupleSection from "./component/CoupleSection"
 import CountdownSection from "./component/CountdownSection"
-import EventSection from "./component/EventSection"
+// import EventSection from "./component/EventSection"
 import ContactSection from "./component/ContactSection"
 import GallerySection from "./component/GallerySection"
 import GiftSection from "./component/GiftSection"
@@ -18,7 +18,7 @@ function App() {
             <InvitationSection/>
             <CoupleSection/>
             <CountdownSection/>
-            <EventSection/>
+            {/* <EventSection/> */}
             <ContactSection/>
             <GallerySection/>
             <GiftSection/>

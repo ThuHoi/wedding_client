@@ -42,9 +42,9 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                Duy Khương
+                                Minh Sơn
                                 <br />&<br />
-                                Thu Thuỷ
+                                Hoàng Hồng
                             </h2>
                             <div
                                 className="date wow fadeInUp animated"
@@ -55,7 +55,7 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                15 Tháng 06, 2025
+                                30 Tháng 03, 2026
                             </div>
                             <div
                                 className="address wow fadeInUp animated"
@@ -66,13 +66,13 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                <FaMapMarkerAlt className="icon" />
+                                {/* <FaMapMarkerAlt className="icon" />
                                 <span>
                                     Trung tâm tiệc cưới Hồng Minh, Hồng Bàng, Hải Phòng,
                                     Việt Nam
-                                </span>
+                                </span> */}
                             </div>
-                            <div className="btn-box">
+                            {/* <div className="btn-box">
                                 <a
                                     href="https://www.google.com/maps?q=Trung%20t%C3%A2m%20ti%E1%BB%87c%20c%C6%B0%E1%BB%9Bi%20H%E1%BB%93ng%20Minh..."
                                     target="_blank"
@@ -83,7 +83,7 @@ function BannerSection() {
                                         Xem vị trí
                                     </span>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* image left */}

@@ -34,7 +34,7 @@ function InvitationSection() {
                             data-editable="true"
                             className="mt-5 h3"
                         >
-                            Duy Khương &amp; Thu Thuỷ
+                            Minh Sơn &amp; Hoàng Hồng
                         </h3>
                     </div>
                     <div
@@ -66,7 +66,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial mt-4"
                                 >
-                                    Ông: Nguyễn Duy Sơn
+                                    Ông: Lê Xuân Quỳnh
                                 </h5>
                                 <h5
                                     id="ibftnw"
@@ -74,7 +74,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial"
                                 >
-                                    Bà: Nguyễn Thị Minh
+                                    Bà: Nguyễn Thị Mến
                                 </h5>
                             </div>
                             <div
@@ -115,7 +115,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial mt-4"
                                 >
-                                    Ông: Nguyễn Công Đạo
+                                    Ông: Hoàng Khắc Luyến
                                 </h5>
                                 <h5
                                     id="iezr8l"
@@ -123,7 +123,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial"
                                 >
-                                    Bà: Đỗ Thị Bích
+                                    Bà: Phạm Thị Thanh
                                 </h5>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="invitator-name"
                                 >
-                                    Nguyễn Duy Khương
+                                    Minh Sơn
                                 </h2>
                             </div>
                             <div
@@ -204,7 +204,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="invitator-name"
                                 >
-                                    Nguyễn Thị Thu Thuỷ
+                                    Hoàng Hồng
                                 </h2>
                             </div>
                         </div>
@@ -251,8 +251,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="fw-bold font-questrial mt-3"
                             >
-                                2/78 Cam Lộ, Hùng Vương, Hồng Bàng, Hải Phòng, Việt
-                                Nam
+                                Tư gia nhà trai:250 Quán Rẽ, An Khánh, Hải Phòng
                             </h5>
                             <h5
                                 id="in0cbl"

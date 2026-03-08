@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // import "aos/dist/aos.css";
 
 function CountdownSection() {
-    const targetDate = new Date("2025-06-15T17:00:00");
+    const targetDate = new Date("2026-03-30T17:00:00");
 
     const calculateTimeLeft = () => {
         const now = new Date();

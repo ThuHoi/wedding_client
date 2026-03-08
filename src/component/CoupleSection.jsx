@@ -147,21 +147,21 @@ function CoupleSection() {
                                     id="iitf2j"
                                     className="name"
                                 >
-                                    Duy Khương
+                                    Minh Sơn
                                 </h4>
-                                <div
+                                {/* <div
                                     data-uuid="65ac636d575c3"
                                     id="if73su"
                                     className="text"
-                                >
-                                    <span
+                                > */}
+                                    {/* <span
                                         data-uuid="65ac636d575c8"
                                         data-editable="true"
                                         id="i4mq1b"
                                     >
                                         Anh IT hài hước vui tính 🤗
                                     </span>
-                                </div>
+                                </div> */}
                                 <div
                                     data-uuid="65ac636d57595"
                                     id="i8d80z"
@@ -240,9 +240,9 @@ function CoupleSection() {
                                     id="ige4cj"
                                     className="name"
                                 >
-                                    Thu Thuỷ
+                                    Hoàng Hồng
                                 </h4>
-                                <div
+                                {/* <div
                                     data-uuid="65ac636d575c3"
                                     id="if73su"
                                     className="text"
@@ -254,7 +254,7 @@ function CoupleSection() {
                                     >
                                         Cô điều dưỡng hiền lành đáng yêu 🥰
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

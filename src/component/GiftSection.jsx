@@ -84,7 +84,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            Số tài khoản: 15910000137339
+                            <b style={{ fontWeight: "900" }}>Số tài khoản:</b> 19029232623011
                         </span>
                         <span
                             id="i0ezp1"
@@ -96,7 +96,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            Chủ tài khoản: Nguyễn Thị Thu Thuỷ
+                            <b style={{ fontWeight: "900" }}>Chủ tài khoản:</b> LE MINH SON
                         </span>
                         <span
                             id="ihm8s5"
@@ -108,7 +108,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            Ngân hàng:{" "}
+                            <b style={{ fontWeight: "900" }}>Ngân hàng:</b>{" "}
                             <span
                                 id="ies4e9"
                                 style={{
@@ -116,7 +116,7 @@ function GiftSection() {
                                     color: "#333333",
                                 }}
                             >
-                                BIDV
+                                TECHCOMBANK
                             </span>
                         </span>
                         <img
@@ -156,7 +156,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            Số tài khoản: 6813016868
+                            <b style={{ fontWeight: "900" }}>Số tài khoản:</b> 109883512760
                         </span>
                         <span
                             id="i0ezp1"
@@ -168,7 +168,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            Chủ tài khoản: Nguyễn Duy Khương
+                            <b style={{ fontWeight: "900" }}>Chủ tài khoản:</b> HOANG THI HONG
                         </span>
                         <span
                             id="ihm8s5"
@@ -180,7 +180,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            Ngân hàng:{" "}
+                            <b style={{ fontWeight: "900" }}>Ngân hàng:</b>{" "}
                             <span
                                 id="ies4e9"
                                 style={{
@@ -188,7 +188,7 @@ function GiftSection() {
                                     color: "#333333",
                                 }}
                             >
-                                TECHCOMBANK
+                                VietinBank CN BA Dinh - PGD THANH CONG
                             </span>
                         </span>
                         <img
