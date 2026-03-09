@@ -213,62 +213,83 @@ function InvitationSection() {
                             data-uuid="65ac636d57527"
                             className="text-center mt-5"
                         >
-                            <span
-                                id="i4uc1s"
-                                data-uuid="65ac636d5752b"
-                                data-editable="true"
-                                className="font-questrial"
-                            >
-                                Tổ chức vào lúc 17 giờ 00
-                            </span>
                             <h4
-                                id="i0oaij"
-                                data-uuid="65ac636d5752f"
+                                id="i0oaij1"
+                                data-uuid="65ac636d5752f1"
                                 data-editable="true"
-                                className="fw-bold font-questrial mt-4"
+                                className="fw-bold font-questrial mt-2 mb-3"
+                                style={{ fontSize: "1.3rem", color: "#333" }}
                             >
-                                Chủ Nhật, ngày 15 tháng 06 năm 2025
+                                Nhà Trai
                             </h4>
                             <h5
-                                id="ix47g8"
-                                data-uuid="65ac636d57533"
+                                id="ix47g81"
+                                data-uuid="65ac636d575331"
                                 data-editable="true"
-                                className="font-questrial mt-3 fst-italic"
+                                className="font-questrial mt-2"
                             >
-                                (Tức ngày 20 tháng 05 năm 2025 Ất Tỵ)
+                                ⏰ 10h30 ngày 30/3/2026
                             </h5>
+                            <h5
+                                id="i30eqh1"
+                                data-uuid="65ac636d5753b1"
+                                data-editable="true"
+                                className="font-questrial mt-2"
+                            >
+                                📍 Địa chỉ: Tư gia nhà trai: 250 Quán Rẽ, An Khánh, Hải Phòng
+                            </h5>
+
+                            <h4
+                                id="i0oaij2"
+                                data-uuid="65ac636d5752f2"
+                                data-editable="true"
+                                className="fw-bold font-questrial mt-5 mb-3"
+                                style={{ fontSize: "1.3rem", color: "#333" }}
+                            >
+                                Nhà Gái
+                            </h4>
+                            <h5
+                                id="ix47g82"
+                                data-uuid="65ac636d575332"
+                                data-editable="true"
+                                className="font-questrial mt-2"
+                            >
+                                ⏰ 10h30 ngày 29/3/2026
+                            </h5>
+                            <h5
+                                id="i30eqh2"
+                                data-uuid="65ac636d5753b2"
+                                data-editable="true"
+                                className="font-questrial mt-2"
+                            >
+                                📍 Địa chỉ: Tư gia nhà gái: tổ dân phố Bến, phường Thành Nam, Ninh Bình
+                            </h5>
+
                             <h5
                                 id="ixrcjo"
                                 data-uuid="65ac636d57537"
                                 data-editable="true"
-                                className="mt-4 font-questrial"
+                                className="font-questrial mt-5 fst-italic"
+                                style={{ color: "#e74c3c", fontWeight: "600" }}
                             >
-                                Tại gia đình Nhà Trai:
+                                <strong>P/S:</strong> Thời gian nhà trai đến đón dâu và tổ chức lễ tại nhà gái: 7h sáng 30/3/2026
                             </h5>
-                            <h5
-                                id="i30eqh"
-                                data-uuid="65ac636d5753b"
-                                data-editable="true"
-                                className="fw-bold font-questrial mt-3"
-                            >
-                                Tư gia nhà trai:250 Quán Rẽ, An Khánh, Hải Phòng
-                            </h5>
+
                             <h5
                                 id="in0cbl"
                                 data-uuid="65ac636d5753f"
                                 data-editable="true"
-                                className="font-dancing mt-3"
+                                className="font-dancing mt-5"
                             >
                                 Rất hân hạnh được đón tiếp
                             </h5>
                             <h5
-                                id="in0cbl"
-                                data-uuid="65ac636d5753f"
+                                id="in0cbl2"
+                                data-uuid="65ac636d5753f2"
                                 data-editable="true"
-                                className="font-dancing mt-1"
+                                className="font-dancing mt-2"
                             >
-                                Sự hiện diện của Quý khách là niềm vinh hạnh của gia
-                                đình chúng tôi!
+                                Sự hiện diện của Quý khách là niềm vinh hạnh của gia đình chúng tôi!
                             </h5>
                         </div>
                     </div>
