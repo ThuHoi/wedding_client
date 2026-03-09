@@ -121,8 +121,8 @@ function CoupleSection() {
                                             width: "100%",
                                             height: "100%",
                                             aspectRatio: "1/1",
-                                            maxWidth: "172px",
-                                            maxHeight: "172px",
+                                            maxWidth: "300px",
+                                            maxHeight: "300px",
                                             objectFit: "cover",
                                         }}
                                     />
@@ -213,8 +213,8 @@ function CoupleSection() {
                                             width: "100%",
                                             height: "100%",
                                             aspectRatio: "1/1",
-                                            maxWidth: "172px",
-                                            maxHeight: "172px",
+                                            maxWidth: "300px",
+                                            maxHeight: "300px",
                                             objectFit: "cover",
                                         }}
                                     />
