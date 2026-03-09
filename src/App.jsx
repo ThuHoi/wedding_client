@@ -1,4 +1,5 @@
 import MusicPlayer from "./component/MusicPlayer"
+import LanguageSwitcher from "./component/LanguageSwitcher"
 import BannerSection from "./component/BannerSection"
 import ScheduleSection from "./component/ScheduleSection"
 import InvitationSection from "./component/InvitationSection"
@@ -12,6 +13,7 @@ import GiftSection from "./component/GiftSection"
 function App() {
     return (
         <div className="page-wrapper">
+            <LanguageSwitcher/>
             <MusicPlayer/>
             <BannerSection/>
             {/* <ScheduleSection/> */}

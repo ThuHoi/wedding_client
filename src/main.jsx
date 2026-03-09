@@ -5,6 +5,7 @@ import "./css/animate.css"
 import "./css/vesey.css"
 import "./css/bootstrap.min.css"
 import "./css/jquery.fancybox.min.css"
+import "./i18n";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(

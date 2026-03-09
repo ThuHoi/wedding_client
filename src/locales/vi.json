@@ -1,0 +1,55 @@
+{
+  "banner": {
+    "groom": "Minh Sơn",
+    "bride": "Hoàng Hồng",
+    "date": "30 Tháng 03, 2026",
+    "ceremony": "Lễ Thành Hôn"
+  },
+  "invitation": {
+    "title": "Thiệp Mời Cưới",
+    "groomFamily": "Nhà Trai",
+    "brideFamily": "Nhà Gái",
+    "groomParents": "Ông: Lê Xuân Quỳnh, Bà: Nguyễn Thị Mến",
+    "brideParents": "Ông: Nguyễn Văn Hùng, Bà: Lê Thị Hương",
+    "invitation": "TRÂN TRỌNG KÍNH MỜI",
+    "invitationText": "Tới dự bữa cơm thân mật",
+    "blessing": "Mừng Lễ Thành Hôn của hai con chúng tôi",
+    "groomTime": "⏰ 10h30 ngày 30/3/2026",
+    "groomAddress": "📍 Địa chỉ: Tư gia nhà trai: 250 Quán Rẽ, An Khánh, Hải Phòng",
+    "brideTime": "⏰ 10h30 ngày 29/3/2026",
+    "brideAddress": "📍 Địa chỉ: Tư gia nhà gái: tổ dân phố Bến, phường Thành Nam, Ninh Bình",
+    "note": "P/S: Thời gian nhà trai đến đón dâu và tổ chức lễ tại nhà gái: 7h sáng 30/3/2026"
+  },
+  "couple": {
+    "title": "Về Chúng Tôi",
+    "groom": "Chú Rể",
+    "bride": "Cô Dâu"
+  },
+  "countdown": {
+    "days": "Ngày",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây",
+    "subtitle": "Cho đến ngày",
+    "title": "Về chung một nhà",
+    "description": "Cùng chúng mình đếm ngược nhé!"
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "getInTouch": "Liên Hệ Chúng Tôi",
+    "willYouCome": "Bạn sẽ đến chứ?",
+    "sendWishes": "Gửi Lời Chúc"
+  },
+  "gallery": {
+    "title": "Thư Viện Ảnh",
+    "photos": "Ảnh Của Chúng Tôi"
+  },
+  "gift": {
+    "title": "Quà & Lời Chúc",
+    "bankAccount": "Số Tài Khoản",
+    "accountHolder": "Chủ Tài Khoản",
+    "bank": "Ngân Hàng",
+    "note": "Cảm ơn bạn vì lời chúc và quà tặng!",
+    "sendWishes": "Gửi Lời Chúc"
+  }
+}

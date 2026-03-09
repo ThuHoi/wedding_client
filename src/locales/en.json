@@ -1,0 +1,55 @@
+{
+  "banner": {
+    "groom": "Minh Sơn",
+    "bride": "Hoàng Hồng",
+    "date": "30 March, 2026",
+    "ceremony": "Wedding Ceremony"
+  },
+  "invitation": {
+    "title": "Wedding Invitation",
+    "groomFamily": "Groom's Family",
+    "brideFamily": "Bride's Family",
+    "groomParents": "Mr. Lê Xuân Quỳnh, Mrs. Nguyễn Thị Mến",
+    "brideParents": "Mr. Nguyễn Văn Hùng, Mrs. Lê Thị Hương",
+    "invitation": "CORDIALLY INVITE YOU",
+    "invitationText": "To celebrate our wedding reception",
+    "blessing": "Celebrating the wedding ceremony of our children",
+    "groomTime": "⏰ 10:30 AM on 30/3/2026",
+    "groomAddress": "📍 Address: Groom's residence: 250 Quán Rẽ, An Khánh, Hai Phong",
+    "brideTime": "⏰ 10:30 AM on 29/3/2026",
+    "brideAddress": "📍 Address: Bride's residence: Bến Ward, Thành Nam, Ninh Binh",
+    "note": "P/S: Groom will pick up bride at 7:00 AM on 30/3/2026 for ceremony at bride's house"
+  },
+  "couple": {
+    "title": "About Us",
+    "groom": "Groom",
+    "bride": "Bride"
+  },
+  "countdown": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "subtitle": "Counting down to",
+    "title": "Our Wedding Day",
+    "description": "Join us in counting down!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "getInTouch": "Get In Touch",
+    "willYouCome": "Will you join us?",
+    "sendWishes": "Send Your Wishes"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "photos": "Our Photos"
+  },
+  "gift": {
+    "title": "Gift & Wishes",
+    "bankAccount": "Bank Account",
+    "accountHolder": "Account Holder",
+    "bank": "Bank",
+    "note": "Thank you for your wishes and gifts!",
+    "sendWishes": "Send Your Wishes"
+  }
+}

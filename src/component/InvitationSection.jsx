@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function InvitationSection() {
+    const { t } = useTranslation();
+
     return (
         <section className="wpo-event-section section-padding">
             <div id="iibdl" data-uuid="65ac636d574b6" className="container-fluid">
@@ -58,7 +61,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="text-uppercase font-questrial"
                                 >
-                                    Nhà Trai
+                                    {t('invitation.groomFamily')}
                                 </h4>
                                 <h5
                                     id="i9iirv"
@@ -220,7 +223,7 @@ function InvitationSection() {
                                 className="fw-bold font-questrial mt-2 mb-3"
                                 style={{ fontSize: "1.3rem", color: "#333" }}
                             >
-                                Nhà Trai
+                                {t('invitation.groomFamily')}
                             </h4>
                             <h5
                                 id="ix47g81"
@@ -228,7 +231,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                ⏰ 10h30 ngày 30/3/2026
+                                ⏰ {t('invitation.groomTime')}
                             </h5>
                             <h5
                                 id="i30eqh1"
@@ -236,7 +239,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                📍 Địa chỉ: Tư gia nhà trai: 250 Quán Rẽ, An Khánh, Hải Phòng
+                                📍 {t('invitation.ceremony')}: {t('invitation.groomAddress')}
                             </h5>
 
                             <h4
@@ -246,7 +249,7 @@ function InvitationSection() {
                                 className="fw-bold font-questrial mt-5 mb-3"
                                 style={{ fontSize: "1.3rem", color: "#333" }}
                             >
-                                Nhà Gái
+                                {t('invitation.brideFamily')}
                             </h4>
                             <h5
                                 id="ix47g82"
@@ -254,7 +257,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                ⏰ 10h30 ngày 29/3/2026
+                                ⏰ {t('invitation.brideTime')}
                             </h5>
                             <h5
                                 id="i30eqh2"
@@ -262,7 +265,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                📍 Địa chỉ: Tư gia nhà gái: tổ dân phố Bến, phường Thành Nam, Ninh Bình
+                                📍 {t('invitation.ceremony')}: {t('invitation.brideAddress')}
                             </h5>
 
                             <h5
@@ -272,7 +275,7 @@ function InvitationSection() {
                                 className="font-questrial mt-5 fst-italic"
                                 style={{ color: "#e74c3c", fontWeight: "600" }}
                             >
-                                <strong>P/S:</strong> Thời gian nhà trai đến đón dâu và tổ chức lễ tại nhà gái: 7h sáng 30/3/2026
+                                <strong>P/S:</strong> {t('invitation.note')}
                             </h5>
 
                             <h5

@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function GiftSection() {
+    const { t } = useTranslation();
+
     return (
         <>
             <section
@@ -40,7 +43,7 @@ function GiftSection() {
                             className="sub-title"
                             style={{ boxSizing: "border-box" }}
                         >
-                            Mừng cưới sớm?
+                            {t('gift.title')}
                         </span>
                         <h2
                             data-uuid="65ac636d57d8f"
@@ -48,7 +51,7 @@ function GiftSection() {
                             id="i7a1b1"
                             style={{ boxSizing: "border-box" }}
                         >
-                            Đến cô dâu & chú rể
+                            Cho cô dâu & chú rể
                         </h2>
                         <span
                             data-uuid="65ac636d57d9a"
@@ -84,7 +87,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            <b style={{ fontWeight: "900" }}>Số tài khoản:</b> 19029232623011
+                            <b style={{ fontWeight: "900" }}>{t('gift.bankAccount')}:</b> 19029232623011
                         </span>
                         <span
                             id="i0ezp1"
@@ -96,7 +99,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            <b style={{ fontWeight: "900" }}>Chủ tài khoản:</b> LE MINH SON
+                            <b style={{ fontWeight: "900" }}>{t('gift.accountHolder')}:</b> LE MINH SON
                         </span>
                         <span
                             id="ihm8s5"
@@ -108,7 +111,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            <b style={{ fontWeight: "900" }}>Ngân hàng:</b>{" "}
+                            <b style={{ fontWeight: "900" }}>{t('gift.bank')}:</b>{" "}
                             <span
                                 id="ies4e9"
                                 style={{

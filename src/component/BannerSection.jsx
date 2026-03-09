@@ -1,7 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 function BannerSection() {
+    const { t } = useTranslation();
+
     return (
         <section className="banner-section-two">
             <div id="iltj" className="icon-flowers-1 bounce-y"></div>
@@ -31,7 +34,7 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                Lễ Thành Hôn
+                                {t('banner.ceremony')}
                             </span>
                             <h2
                                 className="name wow fadeInUp animated"
@@ -42,9 +45,9 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                Minh Sơn
+                                {t('banner.groom')}
                                 <br />&<br />
-                                Hoàng Hồng
+                                {t('banner.bride')}
                             </h2>
                             <div
                                 className="date wow fadeInUp animated"
@@ -55,7 +58,7 @@ function BannerSection() {
                                     animationName: "fadeInUp",
                                 }}
                             >
-                                30 Tháng 03, 2026
+                                {t('banner.date')}
                             </div>
                             <div
                                 className="address wow fadeInUp animated"

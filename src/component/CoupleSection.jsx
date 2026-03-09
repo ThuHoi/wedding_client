@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function CoupleSection() {
+    const { t } = useTranslation();
     return (
         <section
             data-uuid="65ac636d57543"
@@ -139,7 +141,7 @@ function CoupleSection() {
                                     id="ijns8a"
                                     className="designation"
                                 >
-                                    Chú Rể
+                                    {t('couple.groom')}
                                 </span>
                                 <h4
                                     data-uuid="65ac636d57590"
@@ -147,7 +149,7 @@ function CoupleSection() {
                                     id="iitf2j"
                                     className="name"
                                 >
-                                    Minh Sơn
+                                    {t('banner.groom')}
                                 </h4>
                                 {/* <div
                                     data-uuid="65ac636d575c3"
@@ -231,7 +233,7 @@ function CoupleSection() {
                                     id="iukbd3"
                                     className="designation"
                                 >
-                                    Cô Dâu
+                                    {t('couple.bride')}
                                     <br />
                                 </span>
                                 <h4
@@ -240,7 +242,7 @@ function CoupleSection() {
                                     id="ige4cj"
                                     className="name"
                                 >
-                                    Hoàng Hồng
+                                    {t('banner.bride')}
                                 </h4>
                                 {/* <div
                                     data-uuid="65ac636d575c3"

@@ -1,8 +1,10 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 // import "aos/dist/aos.css";
 
 function CountdownSection() {
+    const { t } = useTranslation();
     const targetDate = new Date("2026-03-30T17:00:00");
 
     const calculateTimeLeft = () => {
@@ -77,14 +79,14 @@ function CountdownSection() {
                         id="ioc0pe"
                         className="sub-title"
                     >
-                        Cho đến ngày
+                        {t('countdown.subtitle')}
                     </span>
                     <h2
                         data-uuid="65ac636d575f3"
                         data-editable="true"
                         id="i8c1o6"
                     >
-                        Về chung một nhà
+                        {t('countdown.title')}
                     </h2>
                     <div data-uuid="65ac636d575f8" id="isypt8" className="text">
                         <span
@@ -92,7 +94,7 @@ function CountdownSection() {
                             data-editable="true"
                             id="it2ynf"
                         >
-                            Cùng chúng mình đếm ngược nhé!
+                            {t('countdown.description')}
                         </span>
                     </div>
                 </div>
@@ -126,7 +128,7 @@ function CountdownSection() {
                                     {timeLeft.days}
                                 </span>
                                 <sub data-uuid="65ac636d5761c" id="ionppw">
-                                    Ngày
+                                    {t('countdown.days')}
                                 </sub>
                             </div>
                             <div
@@ -142,7 +144,7 @@ function CountdownSection() {
                                     <div>{timeLeft.hours}</div>
                                 </span>
                                 <sub data-uuid="65ac636d5762b" id="ibw0nb">
-                                    Giờ
+                                    {t('countdown.hours')}
                                 </sub>
                             </div>
                             <div
@@ -158,7 +160,7 @@ function CountdownSection() {
                                     <div>{timeLeft.minutes}</div>
                                 </span>
                                 <sub data-uuid="65ac636d5763b" id="ifjtzd">
-                                    Phút
+                                    {t('countdown.minutes')}
                                 </sub>
                             </div>
                             <div
@@ -174,7 +176,7 @@ function CountdownSection() {
                                     <div>{timeLeft.seconds}</div>
                                 </span>
                                 <sub data-uuid="65ac636d5764b" id="inx0wb">
-                                    Giây
+                                    {t('countdown.seconds')}
                                 </sub>
                             </div>
                         </div>

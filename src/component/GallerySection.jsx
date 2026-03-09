@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 // import images from "../data/data.js";
 const GallerySection = () => {
+    const { t } = useTranslation();
 
     useEffect(() => {
         // Đảm bảo đã tải jQuery và Fancybox từ CDN
@@ -48,14 +50,14 @@ const GallerySection = () => {
                                 data-uuid="65ac636d57aac"
                                 id="i4xhii"
                             >
-                                Kỉ niệm cưới
+                                {t('gallery.title')}
                             </span>
                             <h2
                                 className="title"
                                 data-uuid="65ac636d57ab5"
                                 id="i5le4k"
                             >
-                                Những khoảnh khắc đáng nhớ
+                                {t('gallery.photos')}
                             </h2>
                         </div>
                         <div

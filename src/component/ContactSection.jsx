@@ -1,10 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { toast, Toaster } from "react-hot-toast";
 import { CreatePost } from "../api";
 import confetti from "canvas-confetti";
 
 function ContactSection() {
+    const { t } = useTranslation();
     const [formData, setFormData] = useState({
         name: "",
         phoneNumber: "",
@@ -138,7 +140,7 @@ function ContactSection() {
                                         className="title"
                                         style={{ boxSizing: "border-box" }}
                                     >
-                                        Bạn sẽ đến chứ?
+                                        {t('contact.willYouCome')}
                                     </h3>
                                     <form
                                         data-uuid="65ac636d57850"
