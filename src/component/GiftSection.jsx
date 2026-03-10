@@ -51,7 +51,7 @@ function GiftSection() {
                             id="i7a1b1"
                             style={{ boxSizing: "border-box" }}
                         >
-                            Cho cô dâu & chú rể
+                            {t('gift.gift')}
                         </h2>
                         <span
                             data-uuid="65ac636d57d9a"
@@ -62,8 +62,7 @@ function GiftSection() {
                                 fontSize: "1.25rem",
                             }}
                         >
-                            Gửi mừng cưới sớm cho dâu và rể bằng mã QR dưới đây
-                            bạn yêu nhé
+                            {t('gift.earlyGift')}
                         </span>
                     </div>
 
@@ -159,7 +158,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            <b style={{ fontWeight: "900" }}>Số tài khoản:</b> 109883512760
+                            <b style={{ fontWeight: "900" }}>{t('gift.bankAccount')}:</b> 109883512760
                         </span>
                         <span
                             id="i0ezp1"
@@ -171,7 +170,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            <b style={{ fontWeight: "900" }}>Chủ tài khoản:</b> HOANG THI HONG
+                            <b style={{ fontWeight: "900" }}>{t('gift.accountHolder')}:</b> HOANG THI HONG
                         </span>
                         <span
                             id="ihm8s5"
@@ -183,7 +182,7 @@ function GiftSection() {
                                 display: "block",
                             }}
                         >
-                            <b style={{ fontWeight: "900" }}>Ngân hàng:</b>{" "}
+                            <b style={{ fontWeight: "900" }}>{t('gift.bank')}:</b>{" "}
                             <span
                                 id="ies4e9"
                                 style={{

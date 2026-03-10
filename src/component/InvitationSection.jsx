@@ -37,7 +37,7 @@ function InvitationSection() {
                             data-editable="true"
                             className="mt-5 h3"
                         >
-                            Minh Sơn &amp; Hoàng Hồng
+                            {t('banner.groom')} &amp; {t('banner.bride')}
                         </h3>
                     </div>
                     <div

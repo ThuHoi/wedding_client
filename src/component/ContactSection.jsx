@@ -493,8 +493,7 @@ function ContactSection() {
                                             className="title"
                                             style={{ boxSizing: "border-box" }}
                                         >
-                                            Chúng mình rất mong bạn/anh/chị đến
-                                            chung vui với chúng mình
+                                            {t('contact.loveMessage1')}
                                         </h4>
                                         <div
                                             data-uuid="65ac636d57a65"
@@ -507,8 +506,7 @@ function ContactSection() {
                                                 data-editable="true"
                                                 id="irwsau"
                                             >
-                                                Hãy dành chút thời gian để nói
-                                                cho chúng mình biết nhé!
+                                                {t('contact.loveMessage2')}
                                             </span>
                                         </div>
                                     </div>

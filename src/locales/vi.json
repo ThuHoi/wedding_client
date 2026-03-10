@@ -50,14 +50,19 @@
     "bride": "Cô dâu",
     "groom": "Chú rể",
     "sendWishes": "Gửi Lời Chúc",
-    "send": "Gửi"
+    "send": "Gửi",
+    "loveMessage1": "Chúng mình rất mong bạn/anh/chị đến chung vui với chúng mình",
+    "loveMessage2": "Hãy dành chút thời gian để nói cho chúng mình biết nhé!"
   },
   "gallery": {
     "title": "Thư Viện Ảnh",
-    "photos": "Ảnh Của Chúng Tôi"
+    "photos": "Ảnh Của Chúng Tôi",
+    "loveWords": "Hãy để tình yêu diễn biến thật tự nhiên, đã là duyên thì cũng chẳng sợ lạc đường."
   },
   "gift": {
     "title": "Quà & Lời Chúc",
+    "gift": "Cho Cô Dâu & Chú Rể",
+    "earlyGift": "Gửi mừng cưới sớm cho dâu và rể bằng mã QR dưới đây bạn yêu nhé!",
     "bankAccount": "Số Tài Khoản",
     "accountHolder": "Chủ Tài Khoản",
     "bank": "Ngân Hàng",

@@ -548,9 +548,7 @@ const GallerySection = () => {
                                         data-uuid="65ac636d57c14"
                                         id="ikmqso"
                                     >
-                                        “ Hãy để tình yêu diễn biến thật tự
-                                        nhiên, đã là duyên thì cũng chẳng sợ lạc
-                                        đường. ”
+                                        {t('gallery.loveWords')}
                                     </span>
                                 </div>
                             </div>

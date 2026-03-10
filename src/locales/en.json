@@ -50,17 +50,22 @@
     "bride": "Bride's Guest",
     "groom": "Groom's Guest",
     "sendWishes": "Send Your Wishes",
-    "send": "Send"
+    "send": "Send",
+    "loveMessage1": "We would be truly honored by your presence",
+    "loveMessage2": "Please take a moment to let us know!"
   },
   "gallery": {
     "title": "Gallery",
-    "photos": "Our Photos"
+    "photos": "Our Photos",
+    "loveWords": "Let love unfold naturally, if it’s meant to be, it will always find its way."
   },
   "gift": {
     "title": "Gift & Wishes",
-    "bankAccount": "Bank Account",
-    "accountHolder": "Account Holder",
-    "bank": "Bank",
+    "gift": "For the Bride & Groom",
+    "earlyGift": "Scan the QR below to send a little wedding treat to the happy couple!",
+    "bankAccount": "Account Number",
+    "accountHolder": "Account Name",
+    "bank": "Bank Name",
     "note": "Thank you for your wishes and gifts!",
     "sendWishes": "Send Your Wishes"
   }
