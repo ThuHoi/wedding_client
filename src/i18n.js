@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import enJSON from './locales/en.json';
 import viJSON from './locales/vi.json';
+import jaJSON from './locales/ja.json';
 
 const resources = {
   en: {
@@ -9,6 +10,9 @@ const resources = {
   },
   vi: {
     translation: viJSON
+  },
+  ja: {
+    translation: jaJSON
   }
 };
 

@@ -24,6 +24,13 @@ function LanguageSwitcher() {
       >
         English
       </button>
+      <span className="lang-divider">|</span>
+      <button
+        className={`lang-btn ${i18n.language === 'ja' ? 'active' : ''}`}
+        onClick={() => handleChangeLanguage('ja')}
+      >
+        日本語
+      </button>
     </div>
   );
 }

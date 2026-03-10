@@ -4,12 +4,35 @@ const MusicPlayer = () => {
     const audioRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentTrack, setCurrentTrack] = useState(0);
+    const [isAutoplayAllowed, setIsAutoplayAllowed] = useState(false);
 
     const playlist = [
         "/audio/Beautiful_In_White.mp3",
         "/audio/Đơn_Giản_Anh_Yêu_Em.mp3",
         "/audio/Em_Đồng_Ý.mp3",
     ];
+
+    // Xử lý autoplay - phát khi có user interaction
+    useEffect(() => {
+        const handleUserInteraction = async () => {
+            if (audioRef.current) {
+                try {
+                    audioRef.current.play();
+                    setIsPlaying(true);
+                    console.log("Nhạc bắt đầu phát");
+                } catch (error) {
+                    console.error("Lỗi phát nhạc:", error);
+                }
+            }
+        };
+
+        // Thêm listener cho click
+        document.addEventListener('click', handleUserInteraction, { once: true });
+
+        return () => {
+            document.removeEventListener('click', handleUserInteraction);
+        };
+    }, []);
 
     const toggleMusic = () => {
         if (isPlaying) {
@@ -57,6 +80,7 @@ const MusicPlayer = () => {
                 onEnded={handleEnded}
                 loop={false}
                 preload="auto"
+                muted={false}
             >
                 <source src={playlist[currentTrack]} type="audio/mp3" />
                 Trình duyệt của bạn không hỗ trợ phần tử audio.

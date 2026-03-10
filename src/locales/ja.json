@@ -1,0 +1,55 @@
+{
+  "banner": {
+    "groom": "ミン・ソン",
+    "bride": "ホアン・ホン",
+    "date": "2026年3月30日",
+    "ceremony": "結婚式"
+  },
+  "invitation": {
+    "title": "結婚式招待状",
+    "groomFamily": "新郎の家族",
+    "brideFamily": "新婦の家族",
+    "groomParents": "新郎の父、新郎の母",
+    "brideParents": "新婦の父、新婦の母",
+    "invitation": "結婚式へのご招待",
+    "invitationText": "ご結婚のお祝いをしていただきたく存じます",
+    "blessing": "ご子息のご結婚をお祝い申し上げます",
+    "groomTime": "⏰ 2026年3月30日 午前10時30分",
+    "groomAddress": "📍 住所: 新郎の家：ハイフォン市アンカン区クアンレ通り250番地",
+    "brideTime": "⏰ 2026年3月29日 午前10時30分",
+    "brideAddress": "📍 住所: 新婦の家：ニンビン市ベン地区ベン地区",
+    "note": "新郎は2026年3月30日朝7時に新婦を迎えに行き、新婦の家で式を行います"
+  },
+  "couple": {
+    "title": "私たちについて",
+    "groom": "新郎",
+    "bride": "新婦"
+  },
+  "countdown": {
+    "days": "日",
+    "hours": "時間",
+    "minutes": "分",
+    "seconds": "秒",
+    "subtitle": "結婚式まで",
+    "title": "あと何日",
+    "description": "一緒にカウントダウンしましょう！"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "getInTouch": "ご連絡ください",
+    "willYouCome": "ご出席いただけますか？",
+    "sendWishes": "お祝いのお言葉をお送りください"
+  },
+  "gallery": {
+    "title": "ギャラリー",
+    "photos": "写真"
+  },
+  "gift": {
+    "title": "ご祝儀とお祝いのお言葉",
+    "bankAccount": "口座番号",
+    "accountHolder": "口座名義人",
+    "bank": "銀行",
+    "note": "温かいお気遣いをいただきありがとうございます！",
+    "sendWishes": "お祝いのお言葉をお送りください"
+  }
+}
