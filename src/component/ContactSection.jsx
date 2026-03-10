@@ -172,7 +172,7 @@ function ContactSection() {
                                                         id="itkomq"
                                                         className="custom-radio-box-two"
                                                     >
-                                                        Có
+                                                        {t('contact.answerYes')}
                                                         <input
                                                             data-uuid="65ac636d57875"
                                                             name="isJoin"
@@ -210,7 +210,7 @@ function ContactSection() {
                                                         id="is8ocz"
                                                         className="custom-radio-box-two"
                                                     >
-                                                        Không
+                                                        {t('contact.answerNo')}
                                                         <input
                                                             data-uuid="65ac636d5789a"
                                                             name="isJoin"
@@ -249,7 +249,7 @@ function ContactSection() {
                                                         onChange={handleChange}
                                                         data-uuid="65ac636d578e0"
                                                         required
-                                                        placeholder="Tên của bạn"
+                                                        placeholder={t('contact.namePlaceholder')}
                                                         type="text"
                                                         id="i0la8k"
                                                         className="vs-attendance-name"
@@ -268,7 +268,7 @@ function ContactSection() {
                                                 >
                                                     <input
                                                         data-uuid="65ac636d57917"
-                                                        placeholder="Số điện thoại"
+                                                        placeholder={t('contact.phoneNumberPlaceholder')}
                                                         value={
                                                             formData.phoneNumber
                                                         }
@@ -289,7 +289,7 @@ function ContactSection() {
                                                 id="itrd9n"
                                                 className="title"
                                             >
-                                                Bạn là khách của?
+                                                {t('contact.sideOn?')}
                                             </h6>
                                             <div
                                                 data-uuid="65ac636d57927"
@@ -306,7 +306,7 @@ function ContactSection() {
                                                         id="iwrc51"
                                                         className="custom-radio-box-two"
                                                     >
-                                                        Cô dâu
+                                                        {t('contact.bride')}
                                                         <input
                                                             data-uuid="65ac636d5793f"
                                                             name="isGuest"
@@ -344,7 +344,7 @@ function ContactSection() {
                                                         id="io22sg"
                                                         className="custom-radio-box-two"
                                                     >
-                                                        Chú rể
+                                                        {t('contact.groom')}
                                                         <input
                                                             data-uuid="65ac636d57968"
                                                             name="isGuest"
@@ -378,7 +378,7 @@ function ContactSection() {
                                                 >
                                                     <textarea
                                                         data-uuid="65ac636d579e3"
-                                                        placeholder="Lời chúc"
+                                                        placeholder={t('contact.sendWishes')}
                                                         name="content"
                                                         value={formData.content}
                                                         required
@@ -406,7 +406,7 @@ function ContactSection() {
                                                         id="id1tzg"
                                                         className="btn-title"
                                                     >
-                                                        Gửi
+                                                        {t('contact.send')}
                                                     </span>
                                                 </button>
                                             </div>

@@ -284,7 +284,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-dancing mt-5"
                             >
-                                Rất hân hạnh được đón tiếp
+                                {t('invitation.thankMessage1')}
                             </h5>
                             <h5
                                 id="in0cbl2"
@@ -292,7 +292,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-dancing mt-2"
                             >
-                                Sự hiện diện của Quý khách là niềm vinh hạnh của gia đình chúng tôi!
+                                {t('invitation.thankMessage2')}
                             </h5>
                         </div>
                     </div>

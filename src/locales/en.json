@@ -17,10 +17,12 @@
     "invitationText": "To celebrate our wedding reception",
     "blessing": "Celebrating the wedding ceremony of our children",
     "groomTime": "⏰ 10:30 AM on 30/3/2026",
-    "groomAddress": "📍 Address: Groom's residence: 250 Quán Rẽ, An Khánh, Hai Phong",
-    "brideTime": "⏰ 10:30 AM on 29/3/2026",
-    "brideAddress": "📍 Address: Bride's residence: Bến Ward, Thành Nam, Ninh Binh",
-    "note": "P/S: Groom will pick up bride at 7:00 AM on 30/3/2026 for ceremony at bride's house"
+    "groomAddress": "📍 Groom's Family Home: 250 Quan Re, An Khanh, Hai Phong, Vietnam",
+    "brideTime": "⏰ 10:30 AM – March 29, 2026",
+    "brideAddress": "📍 Bride's Family Home: Ben Residential Area, Thanh Nam Ward, Ninh Binh, Vietnam",
+    "note": "P/S: The groom's family will arrive to pick up the bride and hold the ceremony at the bride's house at 7:00 AM on March 30, 2026.",
+    "thankMessage1": "We would be truly honored by your presence",
+    "thankMessage2": "Your presence will be our greatest joy and honor!"
   },
   "couple": {
     "title": "About Us",
@@ -40,7 +42,15 @@
     "title": "Contact Us",
     "getInTouch": "Get In Touch",
     "willYouCome": "Will you join us?",
-    "sendWishes": "Send Your Wishes"
+    "answerYes": "Yes",
+    "answerNo": "No",
+    "namePlaceholder": "Your Name",
+    "phoneNumberPlaceholder": "Your Phone Number",
+    "sideOn?": "Whose side are you on?",
+    "bride": "Bride's Guest",
+    "groom": "Groom's Guest",
+    "sendWishes": "Send Your Wishes",
+    "send": "Send"
   },
   "gallery": {
     "title": "Gallery",

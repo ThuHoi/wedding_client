@@ -20,7 +20,9 @@
     "groomAddress": "📍 Địa chỉ - Tư gia nhà trai: 250 Quán Rẽ, An Khánh, Hải Phòng",
     "brideTime": "⏰ 10h30 ngày 29/3/2026",
     "brideAddress": "📍 Địa chỉ - Tư gia nhà gái: tổ dân phố Bến, phường Thành Nam, Ninh Bình",
-    "note": "P/S: Thời gian nhà trai đến đón dâu và tổ chức lễ tại nhà gái: 7h sáng 30/3/2026"
+    "note": "P/S: Thời gian nhà trai đến đón dâu và tổ chức lễ tại nhà gái: 7h sáng 30/3/2026",
+    "thankMessage1": "Rất hân hạnh được đón tiếp",
+    "thankMessage2": "Sự hiện diện của Quý khách là niềm vinh hạnh của gia đình chúng tôi!"
   },
   "couple": {
     "title": "Về Chúng Tôi",
@@ -40,7 +42,15 @@
     "title": "Liên Hệ",
     "getInTouch": "Liên Hệ Chúng Tôi",
     "willYouCome": "Bạn sẽ đến chứ?",
-    "sendWishes": "Gửi Lời Chúc"
+    "answerYes": "Có",
+    "answerNo": "Không",
+    "namePlaceholder": "Tên của bạn",
+    "phoneNumberPlaceholder": "Số điện thoại của bạn",
+    "sideOn?": "Bạn là khách của ai?",
+    "bride": "Cô dâu",
+    "groom": "Chú rể",
+    "sendWishes": "Gửi Lời Chúc",
+    "send": "Gửi"
   },
   "gallery": {
     "title": "Thư Viện Ảnh",
