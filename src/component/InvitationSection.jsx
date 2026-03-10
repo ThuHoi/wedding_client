@@ -69,7 +69,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial mt-4"
                                 >
-                                    Ông: Lê Xuân Quỳnh
+                                    {t('invitation.groomFather')}
                                 </h5>
                                 <h5
                                     id="ibftnw"
@@ -77,7 +77,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial"
                                 >
-                                    Bà: Nguyễn Thị Mến
+                                    {t('invitation.groomMother')}
                                 </h5>
                             </div>
                             <div
@@ -110,7 +110,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="text-uppercase font-questrial"
                                 >
-                                    Nhà Gái
+                                    {t('invitation.brideFamily')}
                                 </h4>
                                 <h5
                                     id="i6qzt7"
@@ -118,15 +118,15 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial mt-4"
                                 >
-                                    Ông: Hoàng Khắc Luyến
+                                    {t('invitation.brideFather')}
                                 </h5>
                                 <h5
-                                    id="iezr8l"
-                                    data-uuid="65ac636d574eb"
+                                    id="ibftnw"
+                                    data-uuid="65ac636d574d7"
                                     data-editable="true"
                                     className="font-questrial"
                                 >
-                                    Bà: Phạm Thị Thanh
+                                    {t('invitation.brideMother')}
                                 </h5>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial fw-bold"
                             >
-                                TRÂN TRỌNG KÍNH MỜI
+                                {t('invitation.invitation')}
                             </h3>
                             <div id="ix4xqv">
                                 <h4
@@ -151,7 +151,7 @@ function InvitationSection() {
                                     className="font-questrial mt-1 vs-attendance-name-text"
                                     style={{ fontWeight: 600, display: "inline" }}
                                 >
-                                    Tới dự bữa cơm thân mật
+                                    {t('invitation.invitationText')}
                                 </h4>
                             </div>
                             <h5
@@ -160,7 +160,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-1 vs-attendance-name-text"
                             >
-                                Mừng Lễ Thành Hôn của hai con chúng tôi
+                                {t('invitation.blessing')}
                             </h5>
                         </div>
                         <div
@@ -179,7 +179,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="invitator-name"
                                 >
-                                    Minh Sơn
+                                    {t('banner.groom')}
                                 </h2>
                             </div>
                             <div
@@ -207,7 +207,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="invitator-name"
                                 >
-                                    Hoàng Hồng
+                                    {t('banner.bride')}
                                 </h2>
                             </div>
                         </div>
@@ -231,7 +231,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                ⏰ {t('invitation.groomTime')}
+                                {t('invitation.groomTime')}
                             </h5>
                             <h5
                                 id="i30eqh1"
@@ -239,7 +239,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                📍 {t('invitation.ceremony')}: {t('invitation.groomAddress')}
+                                {t('invitation.groomAddress')}
                             </h5>
 
                             <h4
@@ -257,7 +257,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                ⏰ {t('invitation.brideTime')}
+                                {t('invitation.brideTime')}
                             </h5>
                             <h5
                                 id="i30eqh2"
@@ -265,7 +265,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                📍 {t('invitation.ceremony')}: {t('invitation.brideAddress')}
+                                {t('invitation.brideAddress')}
                             </h5>
 
                             <h5
@@ -275,7 +275,7 @@ function InvitationSection() {
                                 className="font-questrial mt-5 fst-italic"
                                 style={{ color: "#e74c3c", fontWeight: "600" }}
                             >
-                                <strong>P/S:</strong> {t('invitation.note')}
+                                {t('invitation.note')}
                             </h5>
 
                             <h5

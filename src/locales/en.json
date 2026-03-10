@@ -1,7 +1,7 @@
 {
   "banner": {
-    "groom": "Minh Sơn",
-    "bride": "Hoàng Hồng",
+    "groom": "Minh Son",
+    "bride": "Hoang Hong",
     "date": "30 March, 2026",
     "ceremony": "Wedding Ceremony"
   },
@@ -9,8 +9,10 @@
     "title": "Wedding Invitation",
     "groomFamily": "Groom's Family",
     "brideFamily": "Bride's Family",
-    "groomParents": "Mr. Lê Xuân Quỳnh, Mrs. Nguyễn Thị Mến",
-    "brideParents": "Mr. Nguyễn Văn Hùng, Mrs. Lê Thị Hương",
+    "groomFather": "Mr. Le Xuan Quynh",
+    "groomMother": "Mrs. Nguyen Thi Men",
+    "brideFather": "Mr. Hoang Khac Luyen",
+    "brideMother": "Mrs. Pham Thi Thanh",
     "invitation": "CORDIALLY INVITE YOU",
     "invitationText": "To celebrate our wedding reception",
     "blessing": "Celebrating the wedding ceremony of our children",
